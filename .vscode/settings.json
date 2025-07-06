@@ -1,0 +1,12 @@
+{
+    "livePreview.defaultPreviewPath": "/tagstures/page/index.html",
+    "spellright.language": [
+        "de",
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
+}

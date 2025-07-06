@@ -1,0 +1,75 @@
+/* Image styles */
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background: #444;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    transition: width 0.15s, height 0.15s, box-shadow 0.15s, z-index 0.15s;
+    z-index: 1;
+    position: relative;
+}
+
+/* Table styles */
+.table-responsive {
+    height: 80vh;
+}
+
+.table-primary {
+    --bs-table-bg: #4c596d;
+    --bs-table-striped-bg: #5c6b81;
+    --bs-table-hover-bg: #8191a8;
+}
+
+/* Image hover styles */
+/* This creates a hover effect that enlarges the image and shows a larger version */
+.img-hover-outer {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.img-hover-outer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background: #444;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    transition: box-shadow 0.15s;
+    z-index: 1;
+    position: relative;
+}
+
+.img-hover-outer .img-hover-large {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 128px;
+    height: 128px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 16px #000a;
+    z-index: 100;
+    background: #444;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.img-hover-outer:hover .img-hover-large {
+    display: block;
+}
+
+#sidebar {
+    min-width: 180px;
+    max-width: 260px;
+}
+
+@media (max-width: 991px) {
+    #sidebar {
+        max-width: 100%;
+        min-width: 0;
+        margin-bottom: 2rem;
+    }
+}

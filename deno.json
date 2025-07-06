@@ -1,0 +1,36 @@
+{
+  "lint": {
+    "include": ["page/", "server.ts"],
+    "rules": {
+      "tags": ["recommended"],
+      "include": [
+        "no-unused-vars",
+        "no-explicit-any",
+        "no-empty-interface",
+        "prefer-const",
+        "no-inferrable-types",
+        "ban-untagged-todo",
+        "no-async-promise-executor"
+      ],
+      "exclude": [
+        "no-window"
+      ]
+    }
+  },
+  "fmt": {
+    "include": ["page/", "server.ts"],
+    "options": {
+      "useTabs": false,
+      "lineWidth": 100,
+      "indentWidth": 4,
+      "singleQuote": true,
+      "proseWrap": "always"
+    }
+  },
+  "tasks": {
+    "start": "deno run --allow-net --allow-read --allow-write server.ts",
+    "lint": "deno lint",
+    "fmt": "deno fmt",
+    "dev": "deno task fmt && deno task lint && deno task start"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "crab_body.png": {
+    "tags": [
+      "body",
+      "crab"
+    ],
+    "collections": [
+      "crabs"
+    ]
+  },
+  "crab_claw.png": {
+    "tags": [
+      "crab",
+      "claw"
+    ],
+    "collections": [
+      "crabs"
+    ]
+  },
+  "crab_leg.png": {
+    "tags": [
+      "body",
+      "crab"
+    ],
+    "collections": [
+      "crabs"
+    ]
+  },
+  "crab_meat_cooked.png": {
+    "tags": [
+      "body",
+      "crab",
+      "meat",
+      "cooked"
+    ],
+    "collections": [
+      "crabs"
+    ]
+  },
+  "crab_meat.png": {
+    "tags": [
+      "body",
+      "crab",
+      "meat"
+    ],
+    "collections": [
+      "crabs"
+    ]
+  },
+  "crab_shell.png": {
+    "tags": [
+      "body",
+      "crab"
+    ],
+    "collections": [
+      "crabs"
+    ]
+  },
+  "crab_tail.png": {
+    "tags": [
+      "body",
+      "crab"
+    ],
+    "collections": [
+      "crabs"
+    ]
+  },
+  "soup_carrots.png": {
+    "tags": [
+      "simple"
+    ],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_cheese_bread.png": {
+    "tags": [],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_cheese_meat.png": {
+    "tags": [],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_cheese_vegetables.png": {
+    "tags": [],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_cheese.png": {
+    "tags": [
+      "simple"
+    ],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_leek_bread.png": {
+    "tags": [],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_leek_meat.png": {
+    "tags": [],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_leek_vegetables.png": {
+    "tags": [],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_leek.png": {
+    "tags": [
+      "simple"
+    ],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_peas.png": {
+    "tags": [
+      "simple"
+    ],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_radish.png": {
+    "tags": [],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_tomato_bread.png": {
+    "tags": [],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_tomato_meat.png": {
+    "tags": [],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_tomato_vegetables.png": {
+    "tags": [],
+    "collections": [
+      "soups"
+    ]
+  },
+  "soup_tomato.png": {
+    "tags": [
+      "simple"
+    ],
+    "collections": [
+      "soups"
+    ]
+  }
+}
