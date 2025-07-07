@@ -3,6 +3,8 @@ A simple proof of concept dev tool to manage large quantities of textures with t
 
 > 🚧 This is a simple POC created in a day with the help of ChatGPT. Future versions might use quite different technologies. Especially for performance and expandability.
 
+![image](https://github.com/user-attachments/assets/e7a665f8-ab92-455b-b713-ad8b939f0e5b)
+
 
 ## Features
 
